@@ -1,0 +1,17 @@
+.bg-secondary{
+	background: #021a3e !important; 
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 20px;
+}
+
+.margin-1{
+    margin-top: 50px;
+}

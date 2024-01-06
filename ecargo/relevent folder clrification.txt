@@ -1,0 +1,32 @@
+css
+fonts
+img
+js
+media center folders are by nuha
+##############################################
+external
+contact us
+login
+registration
+login-reg css file
+new devop pages are of vidarshana
+############################################
+images
+create order request     (a css file).
+create order request_backend php
+create order request_page php
+create-order-requestCss.       (a css file).
+j query by viraj
+
+
+
+
+################################
+
+yuser account folder yusra
+
+################################
+eCargo_MS_images
+eCargo_MS
+eCargo_MS_conn
+eCargo_MS1  are addithyas  files

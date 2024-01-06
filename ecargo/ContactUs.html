@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact-Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- RWD -->
+<!--linking of bootstrap and css-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style>#map {height: 500px;width: 100%;}</style><!--adjust the size of google map-->
+
+ 
+<style> 
+/* style for form clear this form later */     
+  * {    
+    box-sizing: border-box;    
+  }    
+      
+  input[type=text], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+  input[type=email], select, textarea {    
+    width: 100%;    
+    padding: 12px;    
+    border: 1px solid rgb(70, 68, 68);    
+    border-radius: 4px;    
+    resize: vertical;    
+  }    
+      
+  label {    
+    padding: 12px 12px 12px 0;    
+    display: inline-block;    
+  }    
+      
+  input[type=submit] {    
+    background-color: rgb(37, 116, 161);    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: right;    
+  }    
+      
+  input[type=submit]:hover {    
+    background-color: #45a049;    
+  }    
+      
+  .container {    
+    border-radius: 5px;    
+    background-color: #f2f2f2;    
+    padding: 20px;    
+  }    
+      
+  .col-25 {    
+    float: left;    
+    width: 25%;    
+    margin-top: 6px;    
+  }    
+      
+  .col-75 {    
+    float: left;    
+    width: 75%;    
+    margin-top: 6px;    
+  }    
+      
+  /* Clear floats after the columns */    
+  .row:after {    
+    content: "";    
+    display: table;    
+    clear: both;    
+  }    
+  
+  /* form style ends here */  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+  </style> 
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+<!--Navigation bar starts here-->
+<!--Navigation bar starts here-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="https://www.logotypes101.com/logos/660/4E5FCAC963A972ABFE3FE981905656AF/cargo.png" length="100" height="50" alt="logo"></a>
+  
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <!--first tab-->
+      <li class="nav-item">
+        <a class="nav-link" href="new devop.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+       <!--second tab tab-->
+      <li class="nav-item">
+        <a class="nav-link" href="#">About-Us</a>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="User_Account/myDetail.php">My Account</a>
+          <a class="dropdown-item" href="Create-Order-Request_Page.php">FEE Calculator</a>
+          
+        </div>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="MediaCenter/media.php">Media Center</a>
+      </li>
+
+
+       <!--last contactus tab-->
+       <li class="nav-item">
+          <a class="nav-link" href="ContactUs.html">Contact-Us</a>
+        </li>
+
+    </ul>
+    <!--sign-in/log-in function from here-->
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <a href="login.php"><!--add login page url-->
+      <input type="button" class="btn btn-outline-success my-2 my-sm-0"  value="Login"></a>
+
+      <a href="registration.php"><!--add sign-in page url-->
+      <input type="button" class="btn btn-outline-success my-2 my-sm-0"  value="Register"></a>
+
+
+         
+     
+    </form>
+  </div>
+</nav>
+<!--navigation bar ends from here-->
+
+
+<section style="background-color: yellow;"><!-- sectioned to add yellow color to top border.-->
+  <h2 style="color:gray" align="center">Contact Us <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQNgz_dJpzBfz3HlYsjxjmrMDpbhPtLS1qw&usqp=CAU" height="100" width="200"></h2>
+	<p align="center">we would love to hear from you!</p></div>
+</section>   
+
+
+
+
+<!-- sectioned the page for 2 coloumns in ratio 8:4 -->
+<div class="container-fluid">
+    <div class="row"><!-- section 1 -->
+        <div class="col-sm-8"><!-- can add some info here adding feed back form -->  
+
+
+
+        <section>
+          <h2  style="color:gray" align="center">FEED BACK FORM</h2>    
+          <div class="container">    
+            <form>    
+              <div class="row">    
+                <div class="col-25">    
+                  <label for="fname">First Name</label>    
+                </div>    
+                <div class="col-75">    
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+                </div>    
+              </div>    
+              <div class="row">    
+                <div class="col-25">    
+                  <label for="lname">Last Name</label>    
+                </div>    
+                <div class="col-75">    
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+                </div>    
+              </div>    
+              <div class="row">    
+                  <div class="col-25">    
+                    <label for="email">Mail Id</label>    
+                  </div>    
+                  <div class="col-75">    
+                    <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+                  </div>    
+                </div>    
+              <div class="row">    
+                <div class="col-25">    
+                  <label for="country">Country</label>    
+                </div>    
+                <div class="col-75">    
+                  <select id="country" name="country">    
+                      <option value="none">Select Country</option>    
+                    <option value="australia">Australia</option>    
+                    <option value="canada">Canada</option>    
+                    <option value="usa">USA</option>    
+                    <option value="russia">Russia</option>    
+                    <option value="japan">Japan</option>    
+                    <option value="india">India</option>    
+                    <option value="china">China</option>    
+                  </select>    
+                </div>    
+              </div>    
+              <div class="row">    
+                <div class="col-25">    
+                  <label for="feed_back">Feed Back</label>    
+                </div>    
+                <div class="col-75">    
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+                </div>    
+              </div>    
+              <div class="row">    
+                <input type="submit" value="Submit">    
+              </div>    
+            </form> 
+
+
+
+
+        
+        </section>
+        </div>
+
+
+        <div class="col-sm-4" style="background-color:#C70039;"> <!-- section 2 -->
+              <!--map google start from here-->
+              <div id="map"></div>
+              <script>
+              function initMap() {
+              const colombo = { lat: 6.973767848920243, lng: 79.88195537318646 };
+              const map = new google.maps.Map(document.getElementById("map"),{zoom: 4,center: colombo,});
+              const marker = new google.maps.Marker({position: colombo,map: map,});
+                              }
+              </script>
+              <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8UutLjQodoJfzxXAE7BtlAeWEi5p4YM4&callback=initMap"></script>
+              <!--map google ends from here-->
+                      <!-- location details at the end row --><br/>
+
+	<div>No. 1161, Galle road,<br/> Dehiwala,Sri Lanka
+	</div>
+	
+	<div>+ 94 11 123 4567<br/> Mon - Fri, 8:00-22:00
+	</div>
+
+	<div>info@gmail.com<br/>sale@gmail.com
+	</div>
+
+<!-- location details at the end row finished -->
+
+
+          
+        </div>
+    </div>    
+</div>        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer begins ---->
+<br/><br/><br/><br/><br/><br/>
+
+<div class="card text-center">
+    <div class="card-footer text-muted">
+        <p>© 2022 Copyright:<a href="new devop.html">E-Cargo Service&nbsp;</a><img src="https://www.logotypes101.com/logos/660/4E5FCAC963A972ABFE3FE981905656AF/cargo.png" length="100" height="50" alt="logo"></p>
+    </div>
+  </div>
+
+<!-- footer ends ---->
+</body>>
+</html>
